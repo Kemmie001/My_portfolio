@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    padding-top: 4rem;
+    padding-top: 1rem;
     position: relative;
     scroll-behavior: smooth;
 }
@@ -63,7 +63,22 @@ section{
         align-content: center;
     }
 }
-
+.container4{
+    position: relative;
+}
+.container6::before{
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color:black;
+    opacity: 0.4;
+}
+.container7{
+    position: relative;
+}
 img{
     width: 100%;
 }
